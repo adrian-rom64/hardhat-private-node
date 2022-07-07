@@ -5,13 +5,13 @@ Simple docker image to run private node. Based on [hardhat.org](hardhat.org).
 ### Building docker image
 
 ```bash
-docker build -t hardhat-private-node .
+docker build -t fathermatthew/hardhat-private-node:latest .
 ```
 
 ### Running docker container
 
 ```bash
-docker run -d --name hardhat-private-node -p 8545:8545 hardhat-private-node
+docker run -d --name hardhat-private-node -p 8545:8545 fathermatthew/hardhat-private-node:latest
 ```
 
 ### Accounts
